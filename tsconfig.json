@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "lib": [],
+        "allowJs": true,
+        "checkJs": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "baseUrl": "./src",
+        "outDir": "./dist",
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "esm": true,
+            "module": "CommonJS",
+        }
+    }
+}
