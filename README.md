@@ -5,19 +5,35 @@ My short instruction and boilerplate to setup webpack configuration by using Typ
 ## Install Webpack
 
 Install webpack as usually:
-`yarn add webpack webpack-cli -D`
-`npm install webpack webpack-cli --save-dev`
+```
+# If you use yarn:
+yarn add webpack webpack-cli -D
+```
+```
+# If you use npm:
+npm install webpack webpack-cli --save-dev
+```
 
 ## Install packages to compile TS configuration
 
 Install TS packages and types:
-`npm install typescript ts-node @types/node @types/webpack --save-dev`
-`yarn add typescript ts-node @types/node @types/webpack -D`
-
-Install [Babel](https://babeljs.io) packages for transpile:
-`npm install @babel/core @babel/preset-env @babel/preset-typescript @babel/register --save-dev`
-`yarn add @babel/core @babel/preset-env @babel/preset-typescript @babel/register -D`
-
+```
+# If you use yarn:
+yarn add typescript ts-node @types/node @types/webpack -D
+```
+```
+# If you use npm:
+npm install typescript ts-node @types/node @types/webpack --save-dev
+```
+Install [Babel](https://babeljs.io) packages:
+```
+# If you use yarn:
+yarn add @babel/core @babel/preset-env @babel/preset-typescript @babel/register -D
+```
+```
+# If you use npm:
+npm install @babel/core @babel/preset-env @babel/preset-typescript @babel/register --save-dev
+```
 Check [documentation](https://webpack.js.org/configuration/configuration-languages/) to see all options of setup
 
 ## Configuration tsconfig.json
@@ -63,9 +79,14 @@ export default configuration;
 ## P.S. If you use Webpack Dev Server
 
 Firstly, install types:
-`npm install @types/webpack-dev-server --save-dev`
-`yarn add @types/webpack-dev-server @babel/register -D`
-
+```
+# If you use yarn:
+yarn add @types/webpack-dev-server @babel/register -D
+```
+```
+# If you use npm:
+npm install @types/webpack-dev-server --save-dev
+```
 Secondly, update configuration file where you use Dev Server, just add import:
 
 ```
